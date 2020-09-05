@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import LandingImage from './components/LandingImage';
 import Title from './components/Title';
@@ -22,11 +23,11 @@ function App() {
       <LandingMain>
         <LandingImage />
         <ButtonsContainer>
-          <Button href='/comparative'>
-            Comparativo
+          <Button as={Link} to='/water'>
+            Água
           </Button>
-          <Button href='/problems' >
-            Problemas
+          <Button as={Link} to='/air' >
+            Ar
           </Button>
         </ButtonsContainer>
       </LandingMain>

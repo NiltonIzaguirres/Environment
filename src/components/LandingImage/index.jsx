@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import image from '../../assets/images/MainImage.svg';
+import image from '../../assets/images/mainImage.svg';
 
 const LandingImage = styled.image`
   background-image: url(${image});

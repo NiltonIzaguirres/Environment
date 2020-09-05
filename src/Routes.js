@@ -2,16 +2,16 @@ import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import App from './App';
-import Problems from './pages/Problems';
-import Comparative from './pages/Comparative';
+import Air from './pages/Air';
+import Water from './pages/Water';
 
 function Routes(){
   return (
     <BrowserRouter>
       <Switch>
         <Route path='/' exact component={App} />
-        <Route path='/problems' component={Problems} />
-        <Route path='/comparative' component={Comparative} />
+        <Route path='/air' component={Air} />
+        <Route path='/water' component={Water} />
       </Switch>
     </BrowserRouter>
   );

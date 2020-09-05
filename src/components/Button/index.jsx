@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Button = styled.a`
+const Button = styled.button`
   width: 35%;
   margin: 10rem 0;
   padding: 30rem 10rem;
@@ -16,11 +16,11 @@ const Button = styled.a`
   transition: background-color 0.2s;
   
   &:first-child{
-    background-color: var(--purple-primary-color);
+    background-color: var(--blue-primary-color);
   }
 
   &:first-child:hover{
-    background-color: var(--purple-secondary-color);
+    background-color: var(--blue-secondary-color);
   }
   
   &:hover {

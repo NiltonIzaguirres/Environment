@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Colors from './assets/styles/settings/Colors';
-import Reset from './assets/styles/Reset';
-import Animations from './assets/styles/Animations.js';
-import Routes from './routes.js';
+import Colors from './styles/settings/Colors';
+import Reset from './styles/Reset';
+import Animations from './styles/Animations.js';
+import Routes from './Routes.js';
 
 ReactDOM.render(
   <React.StrictMode>

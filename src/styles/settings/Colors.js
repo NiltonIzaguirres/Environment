@@ -6,8 +6,8 @@ const Colors = createGlobalStyle`
 		--secondary-color: #2E8B57;
 		--gray-color: #DAE0E0;
 		--background-green-color: #C9E9CB;
-		--purple-primary-color: #7D6BD1;
-		--purple-secondary-color: #9781E2;
+		--blue-primary-color: #00BFFF;
+		--blue-secondary-color: #1E90FF;
 		--white-color: #f5f5f5;
 	}
 `;

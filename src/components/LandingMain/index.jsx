@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const LandingMain = styled.main`
+const LandingMain = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
