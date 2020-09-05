@@ -13,14 +13,14 @@ const Button = styled.button`
   background-color: var(--secondary-color);
   color: var(--white-color);
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: all 0.3s;
   
   &:first-child{
-    background-color: var(--blue-primary-color);
+    background-color: var(--blue-secondary-color);
   }
 
   &:first-child:hover{
-    background-color: var(--blue-secondary-color);
+    background-color: var(--blue-primary-color);
   }
   
   &:hover {

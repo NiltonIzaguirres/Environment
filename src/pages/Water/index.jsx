@@ -51,6 +51,13 @@ function Water() {
       </ItemContainer>
       <ItemContainer
         blue={true}
+        title='localização'
+        image='https://cdn.pixabay.com/photo/2018/11/25/02/57/city-3836765_960_720.jpg'
+      >
+        Não a um lugar específico, pórem podemos usar como exemplo o Rio Tietê (O mais poluido do brasil segundo o <a href='https://www.ibge.gov.br/pt/inicio.html'>IBGE (2013)</a>). 
+      </ItemContainer>
+      <ItemContainer
+        blue={true}
         title='Capitalismo'
         image='https://cdn.pixabay.com/photo/2017/02/23/10/23/dollar-2091737_960_720.jpg'
       >

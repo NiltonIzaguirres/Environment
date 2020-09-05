@@ -34,13 +34,14 @@ const FontsComponentsStyled = styled.div`
     font-weight: 700;
     font-size: 12rem;
     border-radius: 0 8rem 0 8rem;
-    background-color: var(--blue-primary-color);
+    background-color: ${({ blue }) => (blue ? 'var(--blue-secondary-color)' : 'var(--secondary-color)')};
     color: var(--white-color);
+    transition: border 0.3s;
     cursor: pointer;
   }
 
   & > a:hover {
-    background-color: var(--blue-secondary-color);
+    background-color: ${({ blue }) => (blue ? 'var(--blue-primary-color)' : 'var(--primary-color)')};
     animation: quake 0.8s ease;
   }
 
