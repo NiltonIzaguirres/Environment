@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Title from '../Title';
 
 const FontsComponentsStyled = styled.div`
   display: flex;
@@ -60,14 +61,19 @@ const FontsComponentsStyled = styled.div`
 
 const FontsComponents = (props) => {
   return (
-    <FontsComponentsStyled
-      blue={props.blue}
-    >
-      <iframe title='Font YouTube' src="https://www.youtube.com/embed/q8stWOJY1I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <a href='https://pixabay.com/'>
-        Imagens Usadas
-      </a>
-    </FontsComponentsStyled>
+    <>
+      <Title>
+        Fontes
+      </Title>
+      <FontsComponentsStyled
+        blue={props.blue}
+      >
+        <iframe title='Font YouTube' src="https://www.youtube.com/embed/q8stWOJY1I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href='https://pixabay.com/'>
+          Imagens Usadas
+        </a>
+      </FontsComponentsStyled>
+    </>
   );
 }
 

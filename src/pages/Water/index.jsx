@@ -10,7 +10,7 @@ function Water() {
   return (
     <>
       <Header secondary={true} blue={true} >
-        <BackToMain />
+        <BackToMain blue={true} />
         <Title>
           Poluição nas águas
         </Title>
