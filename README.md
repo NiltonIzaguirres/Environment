@@ -10,7 +10,7 @@ Neste projeto representei a poluição do ar e a da água.
 Necessário ter NodeJs com NPM (ou Yarn) instalado na máquina.
 ```
 # Instale as dependências
-$ npm install ou yarn install
+$ yarn install ou npm install
 # Iniciar
-$ npm start ou yarn start
+$ yarn start ou npm run start 
 ```
